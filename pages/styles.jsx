@@ -18,6 +18,7 @@ const Styles = () => {
                     <li>To style the app globally we use the globals.css file which will work in the _app.js file</li>
                     <li>To style each page indiviually we use page name .module.css and import that into the page</li>
                     <li>Speak about the layout component used within the main _app.js file.</li>
+                    <li>Layout component that is placed within the index.js</li>
                 </ul>
             </section>
         </div>

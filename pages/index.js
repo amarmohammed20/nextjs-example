@@ -9,9 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Welcome next js!</h1>
-
-        
+        <h1>Welcome next js!</h1>     
       </main>
 
       <footer>

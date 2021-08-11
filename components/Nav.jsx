@@ -12,10 +12,19 @@ const Nav = () => {
                     <Link href='/about'>About</Link>
                 </li>
                 <li>
-                    <Link href='/react-comp'>React Components</Link>
+                    <Link href='/react-comp'>Components</Link>
                 </li>
                 <li>
                     <Link href='/styles'>Styling</Link>
+                </li>
+                <li>
+                    <Link href='/seo'>SEO</Link>
+                </li>
+                <li>
+                    <Link href='/api-info'>API</Link>
+                </li>
+                <li>
+                    <Link href='/custom-doc'>Custom Document</Link>
                 </li>
             </ul>
         </nav>
