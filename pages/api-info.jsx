@@ -1,6 +1,8 @@
 import Head from 'next/head'
+import ArticleApi from '../components/ArticleApi';
 
 const Api = ({articles}) => {
+    console.log(articles)
     return (
         <div>
             <Head>
@@ -29,11 +31,7 @@ const Api = ({articles}) => {
                 <section>
                     <h3>API Test Data - getStaticProps</h3>
                     <p>Using the api Next.js function <b>getStaticProps</b> to use the fethc method on the json place holder site.</p>
-                    {articles.map((article) => (
-                    <div key={article.id}> 
-                        <h5>{article.title}</h5>
-                    </div>
-                    ))}
+                    <ArticleApi articles={articles}/>
                 </section>
 
             </main>
