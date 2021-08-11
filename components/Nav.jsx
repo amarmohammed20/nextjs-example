@@ -26,6 +26,9 @@ const Nav = () => {
                 <li>
                     <Link href='/custom-doc'>Custom Document</Link>
                 </li>
+                <li>
+                    <Link href='/typeScript'>Type Script</Link>
+                </li>
             </ul>
         </nav>
     )
